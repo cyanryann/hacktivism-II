@@ -34,7 +34,7 @@ async function fetchData() {
             }
         });
         const data = proxyResponse.data;
-        results.innerText = "Your closest city is " + data.result.city;
+        results.innerText = "Your closest city is " + data.city;
         } catch (error)
     {
         console.error('Error fetching data: ', error);
