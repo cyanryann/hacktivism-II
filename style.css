@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    background-color: rgb(35, 146, 35);
+}
+body {
+    background-color: rgb(85, 197, 85);
+}
+h2 {
+    font-family: "Roboto";
+    text-align: center;
+}
+.quote p {
+    font-family: "Playfair Display";
+    font-weight:400;
+    font-size: 18px;
+    padding: 10px 60px;
+}
+.quote h4 {
+    text-align:right;
+    padding-right: 200px;
+    margin-bottom: 50px;
+}
+.center {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+}
+button {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-family: "Robot";
+}
+button:hover {
+    filter: brightness(.8);
+}
