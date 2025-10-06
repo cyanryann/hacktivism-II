@@ -34,6 +34,7 @@ async function fetchData() {
             }
         });
         const data = proxyResponse.data;
+        console.log(data);
         results.innerText = "Your closest city is " + data.city;
         } catch (error)
     {
