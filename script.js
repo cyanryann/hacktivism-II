@@ -165,16 +165,16 @@ function loadData(data)
     if (pm25 > 55)
     {
         isClean = false;
-        pm10Body.textContent = "Your Particulate Matter 2.5 levels are at " + pm25 + " µg/m3. This is considered much greater than what is safe to breath and is associated with risk of lung damage. If possible, limit your vehicle use and look to invest in renewable energy sources in your area, as these are the primary emitters of aerial particles!";
+        pm25Body.textContent = "Your Particulate Matter 2.5 levels are at " + pm25 + " µg/m3. This is considered much greater than what is safe to breath and is associated with risk of lung damage. If possible, limit your vehicle use and look to invest in renewable energy sources in your area, as these are the primary emitters of aerial particles!";
     }
     else if (pm25 > 35)
     {
         isClean = false;
-        pm10Body.textContent = "Your Particulate Matter 2.5 levels are at " + pm25 + " µg/m3. This is considered slightly above average, and some caution should be held when going outside for extended periods.";
+        pm25Body.textContent = "Your Particulate Matter 2.5 levels are at " + pm25 + " µg/m3. This is considered slightly above average, and some caution should be held when going outside for extended periods.";
     }
     else
     {
-        pm10Body.textContent = "Your Particulate Matter 2.5 levels are at " + pm25 + " µg/m3. This is considered safe for breathing, and isn't a concern in your area!"
+        pm25Body.textContent = "Your Particulate Matter 2.5 levels are at " + pm25 + " µg/m3. This is considered safe for breathing, and isn't a concern in your area!"
     }
     pm25Div.appendChild(pm25Head);
     pm25Div.appendChild(pm25Body);
