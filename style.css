@@ -54,3 +54,7 @@ button:hover {
     height: 100px;
     font-family: "Roboto";
 }
+.main > div > p {
+    font-family: "Roboto";
+    text-align: center;
+}
