@@ -204,7 +204,7 @@ function loadData(data)
     {
         const cleanDiv = document.createElement("div");
         const cleanHead = document.createElement("h3");
-        cleanHead.textContent = "Your area is clean across the board! Congratulations to your community for keeping the environment safe!";
+        cleanHead.textContent = "Your area is clean across the board! Congratulations to you and your community for keeping the environment safe!";
         cleanDiv.appendChild(cleanHead);
         clean.appendChild(cleanDiv);
     }
